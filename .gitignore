@@ -1,0 +1,25 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# env & secrets - never committed (secrets-and-env golden rule #1)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# logs & caches
+*.log
+__pycache__/
+.cache/
+
+# language build output
+node_modules/
+dist/
+build/
+target/
+coverage/
