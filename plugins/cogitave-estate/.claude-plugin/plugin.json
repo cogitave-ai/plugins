@@ -1,0 +1,8 @@
+{
+  "name": "cogitave-estate",
+  "description": "READ / discovery + query surface for the Cogitave estate. Tiered onboarding, the property-graph knowledge map, hybrid docs/graph search, and ownership routing over the cogitave-core MCP server (Cogitave Core). Read-only and least-privilege by construction: it never proposes, writes, or mutates. Invoke for any question about what exists in the estate, how it is structured, where a doc/standard/ADR/agent lives, or who owns it.",
+  "author": {
+    "name": "Cogitave",
+    "email": "ai-ops@cogitave.com"
+  }
+}

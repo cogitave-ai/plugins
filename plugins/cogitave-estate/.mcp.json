@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "cogitave-core": {
+      "type": "http",
+      "url": "https://mcp.cogitave.com/mcp",
+      "requiresAuth": true,
+      "env": {
+        "COGITAVE_API_KEY": "${COGITAVE_API_KEY}"
+      }
+    }
+  }
+}

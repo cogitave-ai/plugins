@@ -1,0 +1,21 @@
+{
+  "name": "cogitave",
+  "owner": {
+    "name": "Cogitave AI Ops",
+    "email": "ai-ops@cogitave.com"
+  },
+  "plugins": [
+    {
+      "name": "cogitave-estate",
+      "source": "./plugins/cogitave-estate",
+      "description": "READ surface for the Cogitave estate. Discovery + query over Cogitave Core (the typed property graph) via the cogitave-core MCP server: tiered onboarding, schema/knowledge map, hybrid docs/graph search, and ownership routing. Read-only, least-privilege; no mutation.",
+      "category": "productivity"
+    },
+    {
+      "name": "cogitave-flow",
+      "source": "./plugins/cogitave-flow",
+      "description": "WRITE surface for the Cogitave estate. Governed contribution + the canonical 7-stage request lifecycle + docs-as-code, automated over the cogitave-core MCP server. Propose-only at Day 0: opens issues/PRs and stages draft Request nodes; never mutates protected state.",
+      "category": "development"
+    }
+  ]
+}

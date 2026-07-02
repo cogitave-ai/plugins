@@ -1,0 +1,8 @@
+{
+  "name": "cogitave-flow",
+  "description": "Governed contribution for the Cogitave estate: drive a change through the canonical 7-stage request lifecycle (intake -> evaluate -> plan -> document -> implement -> review -> done) with docs-as-code enforced. Wraps the Cogitave Core MCP lifecycle/governance tools (describe_schema, list_requests, get_request, get_dod, request_intake, advance_stage). All write actions are PROPOSE-ONLY at Day 0 (open a GitHub issue/PR + stage a draft Core Request node; never mutate protected state). Honors the root AGENTS.md managed policy: English-only, Conventional Commits, signed, least privilege, no unapproved mutation, human-in-the-loop.",
+  "author": {
+    "name": "Cogitave",
+    "email": "ai-ops@cogitave.com"
+  }
+}
