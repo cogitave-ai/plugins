@@ -46,7 +46,7 @@ Project-scoped install (the estate pattern) enables the plugins in
 }
 ```
 
-`cogitave/template-base` PINS the plugins for every new repo and commits the thin
+`cogitave/templates/base` PINS the plugins for every new repo and commits the thin
 `.mcp.json`; that is the only place repos couple to Core.
 
 ## Talking to Core (MCP)
